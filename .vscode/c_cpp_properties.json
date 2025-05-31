@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:USERPROFILE}/.pico-sdk/sdk/2.1.1/**",
+                "${userHome}/.pico-sdk/sdk/2.1.1/**"
+            ],
+            "forcedInclude": [
+                "${env:USERPROFILE}/.pico-sdk/sdk/2.1.1/src/common/pico_base_headers/include/pico.h",
+                "${workspaceFolder}/build/generated/pico_base/pico/config_autogen.h",
+                "${userHome}/.pico-sdk/sdk/2.1.1/src/common/pico_base_headers/include/pico.h"
+            ],
+            "defines": [],
+            "compilerPath": "${userHome}/.pico-sdk/toolchain/RISCV_RPI_2_0_0_5/bin/riscv32-unknown-elf-gcc",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:USERPROFILE}/.pico-sdk/sdk/2.1.1"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
